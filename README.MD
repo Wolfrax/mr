@@ -17,7 +17,7 @@ Installation (using python virtualenv)
     $ python3 -m venv venv
     $ pip install -r requirements.txt
 
-Remember to activate the virtualenv: `$ venv/bin/activate`
+Remember to activate the virtualenv: `$ source venv/bin/activate`
 
 Arguments to script is:
 * -f: input filename
