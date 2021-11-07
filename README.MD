@@ -8,7 +8,7 @@ be different. The output is a new excel file, with columns equal in size.
 The script will read each column, find out the max length of the columns and use this length as the resampling factor,
 meaning that all columns will be equal in size to the max length after they are resampled.
 Resampling (actually upsampling) is done through SciPy signal.resample method, see 
-[https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.resample.html]. Columns will max length will be 
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.resample.html. Columns will max length will be 
 identical with the resampled columns. Columns that are shorter in length will be equal to max length after resampling, 
 the average value will be equal to the average value before resampling.
 
